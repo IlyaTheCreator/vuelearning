@@ -7,7 +7,7 @@
         @change="optionChange"
     >
         <option value="null" disabled>Choose sth</option>
-        <option value="first">first</option>
+        <option value="first">firdst</option>
         <option value="second">second</option>
         <option value="third">third</option>
     </select>
