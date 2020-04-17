@@ -1,5 +1,5 @@
 <template>
-    пуп
+    пуп и луп
 </template>
 
 <script>
