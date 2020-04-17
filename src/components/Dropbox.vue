@@ -1,5 +1,5 @@
 <template>
-    <label for="dropbox">Options</label>
+    <label for="dropbox">Options. Come don! This is crazy!</label>
     <select 
         v-model="option" 
         name="dropbox" 
@@ -11,11 +11,18 @@
         <option value="second">second</option>
         <option value="third">third</option>
     </select>
+    <Whatever />
 </template>
 
 <script>
+import Whatever from "./Whatever";
+
 export default {
     name: 'Dropbox',
+
+    components: {
+        Whatever
+    },
 
     data() {
         return {
