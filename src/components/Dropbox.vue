@@ -1,5 +1,5 @@
 <template>
-    <label for="dropbox">Options</label>
+    <label for="dropbox">Options. This is crazy!</label>
     <select 
         v-model="option" 
         name="dropbox" 
