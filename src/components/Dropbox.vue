@@ -11,11 +11,18 @@
         <option value="second">second</option>
         <option value="third">third</option>
     </select>
+    <Whatever />
 </template>
 
 <script>
+import Whatever from "./Whatever";
+
 export default {
     name: 'Dropbox',
+
+    components: {
+        Whatever
+    },
 
     data() {
         return {
